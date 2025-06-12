@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Neon To-Do List</title>
+<link rel="stylesheet" href="style.css" />
+<script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1 class="title">🦄 To-Do List</h1>
+
+    <div class="input-group">
+      <input type="text" id="tache" placeholder="Écris ta tâche..." autocomplete="off" />
+      <button id="ajouter" aria-label="Ajouter tâche">+</button>
+    </div>
+
+    <p id="message"></p>
+
+    <ul id="liste" class="task-list"></ul>
+
+    <button id="supprimer" class="btn-danger" style="display:none;">Supprimer tâches cochées</button>
+  </main>
+</body>
+</html>
